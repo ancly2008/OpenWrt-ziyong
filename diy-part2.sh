@@ -15,4 +15,4 @@ sed -i 's/192.168.1.1/192.168.96.118/g' package/base-files/files/bin/config_gene
 
 sed -i 's/OpenWrt/test-g2-x64/g' package/base-files/files/bin/config_generate
 
-sed -i 's/root:$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0:0:99999:7:::/root:$1$J/yhw/Y9$2fG0i.WhXhclMCNsJpxIJ1:18727:0:99999:7:::/g' /etc/shadow
+rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
