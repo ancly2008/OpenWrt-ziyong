@@ -18,3 +18,5 @@ sed -i 's/OpenWrt/test-g2-x64/g' package/base-files/files/bin/config_generate
 sed -i 's/root::0:0:99999:7:::/root:$1$J/yhw/Y9$2fG0i.WhXhclMCNsJpxIJ1:18727:0:99999:7:::/g' /etc/shadow
 
 rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
+
+git clone http://downloads.openwisp.io/openwisp-config/2021-01-07-162007/openwisp-config-openssl_0.5.0-1_all.ipk
