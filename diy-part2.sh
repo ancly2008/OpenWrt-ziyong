@@ -11,8 +11,4 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.96.118/g' package/base-files/files/bin/config_generate
-
-sed -i 's/OpenWrt/test-g2-x64/g' package/base-files/files/bin/config_generate
-
-rm -f /usr/lib/lua/luci/view/admin_status/index/ddns.htm
+#sed -i 's/192.168.1.1/192.168.96.118/g' package/base-files/files/bin/config_generate
